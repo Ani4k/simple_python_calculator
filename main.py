@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 print("\n******Written By Ani4k-D3V******")
-print("\n******Written By Ani4k-D3V******")
 import time
 def hola():
     while True:
