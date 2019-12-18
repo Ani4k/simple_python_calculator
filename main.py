@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 print("\n******Written By Ani4k-D3V******")
+print("\n******Written By Ani4k-D3V******")
 import time
 def hola():
     while True:
@@ -31,14 +32,19 @@ def holaEq():
             global flowEq
             flowEq = str(input("Enter Equation *,/,+,-,% : "))
             if flowEq == "*":
+                print("\n",flow * flowTwo)
                 return flow * flowTwo
             elif flowEq == "/":
+                print("\n",flow / flowTwo)
                 return flow / flowTwo
             elif flowEq == "%":
+                print("\n",flow % flowTwo)
                 return flow % flowTwo
             elif flowEq == "+":
+                print("\n",flow + flowTwo)
                 return flow + flowTwo
             elif flowEq == "-":
+                print("\n",flow - flowTwo)
                 return flow - flowTwo
             else:
                 print("Please Enter Valid Equation!")
